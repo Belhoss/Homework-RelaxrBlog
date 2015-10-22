@@ -1,0 +1,240 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+/* Clearfix: contain floats */
+.group:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.alignright {
+    float: right;
+    padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+    float: left;
+    padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+.center {
+    float: center;
+}
+ 
+.list-link {
+    font-weight: 300;
+    text-align: left;
+}
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0efef;
+}
+
+
+footer {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+}
+
+
+header {
+  background: #033048;
+  padding: 50px;
+  overflow: hidden;
+}
+
+
+article {
+  padding-bottom: 30px;
+  margin: 30px 50px;
+  border-bottom: 1px solid #606161;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.logo {
+  float: left;
+  padding-left: 50px;
+}
+
+.logo-yellow {
+  color: yellow;
+  text-align: center;
+}
+
+.main-nav{
+  float:right;
+  font-weight: 300;
+}
+
+.main-nav a {
+  padding-right: 40px;
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f9e42e;
+}
+
+.page-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+.posts {
+  float: left;
+  width: 70%;
+}
+
+.first-character {
+  float: left;
+  font-size: 75px;
+  font-weight: 600;
+  color: #033048;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+}
+
+.sidebar {
+  float: right;
+  width: 24%;
+}
+
+.footer-container {
+  padding: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  font-size: 9px;
+}
+
+.button-yellow {
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  background-color: #f9e42e;
+  padding: 5px 30px;
+  margin: auto 0;
+  border-radius: 2px;
+}
+
+.button-grey {
+  text-align: center;
+  font-weight: 600;
+  font-size: 26px;
+  color: white;
+  background-color: #033048;
+  padding: 10px 50px;
+  margin: auto 0;
+  border-radius: 5px;
+}
+
+.signup-container {
+  background: #f9e42e;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer-icon {
+  margin: 40px 20px 40px 10px;
+  float: center;
+}
+
+.read-more {
+  font-weight: 600;
+  padding-bottom: 20px;
+  text-align: right;
+}
+
+.learn-more {
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+  margin-bottom: 15px;
+  padding-top: 0px;
+}
+
+
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  padding-top: 30px;
+}
+
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #033048;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: #033048;
+}
+
+p {
+  padding-top: 20px;
+}
+
+
